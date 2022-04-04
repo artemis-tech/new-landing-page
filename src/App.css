@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:regular,bold,italic&subset=latin,latin-ext');
+
+/* hack to remove border from grommet anchor on focus */
+*:hover:not(:focus-visible),
+*:focus:not(:focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  min-width: 320px;
+}
